@@ -1,0 +1,34 @@
+{
+  "name": "gulp-nunjucks-data",
+  "version": "0.0.1",
+  "description": "Gulp plugin to render templates from data property attached to vinyl object",
+  "main": "lib",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ifraixedes/gulp-nunjucks-data"
+  },
+  "keywords": [
+    "gulp",
+    "nunjucks",
+    "gup-data"
+  ],
+  "author": "Ivan Fraixedes <ivan@fraixed.es> (http://ivan.fraixed.es)",
+  "license": "MIT",
+  "config": {
+    "ghooks": {
+      "pre-push": "npm run lint"
+    }
+  },
+  "devDependencies": {
+    "ghooks": "^1.2.3",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "nunjucks": "^2.4.2",
+    "through2": "^2.0.1"
+  }
+}
