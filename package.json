@@ -22,6 +22,9 @@
       "pre-push": "npm run lint"
     }
   },
+  "engines": {
+    "node": "^6.0"
+  },
   "devDependencies": {
     "ghooks": "^1.2.3",
     "standard": "^7.1.2"
