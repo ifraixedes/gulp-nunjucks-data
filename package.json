@@ -1,6 +1,6 @@
 {
   "name": "gulp-nunjucks-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp plugin to render templates from data property attached to vinyl object",
   "main": "lib",
   "scripts": {
